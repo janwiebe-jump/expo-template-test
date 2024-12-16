@@ -2,4 +2,8 @@
 module.exports = {
   extends: 'expo',
   ignorePatterns: ['/dist/*'],
-};
+  plugins: ['react-compiler'],
+  rules: {
+    'react-compiler/react-compiler': 'error',
+  },
+}

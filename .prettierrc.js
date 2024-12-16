@@ -6,4 +6,5 @@ module.exports = {
   tabWidth: 2,
   trailingComma: 'all',
   quoteProps: 'consistent',
+  plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss'],
 }
