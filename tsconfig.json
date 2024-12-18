@@ -1,4 +1,10 @@
 {
-  "compilerOptions": {},
+  "compilerOptions": {
+    "paths": {
+      "app/*": ["./src/*"],
+      "assets/*": ["./assets/*"]
+    },
+    "moduleSuffixes": [".android", ".ios", ""]
+  },
   "extends": "expo/tsconfig.base"
 }
